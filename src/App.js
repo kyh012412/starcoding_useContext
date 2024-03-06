@@ -6,10 +6,7 @@ import { ThemeContext } from './context/ThemeContext';
 function App() {
   const [isDark,toggleDarkness] = useState(false);
   return (
-      <ThemeContext.Provider value={{isDark,toggleDarkness}}>
-      <Page />
-    </ThemeContext.Provider>
-    
+    <Page />    
   );
 }
 
