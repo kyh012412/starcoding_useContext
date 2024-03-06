@@ -3,7 +3,6 @@ import { ThemeContext } from '../context/ThemeContext';
 
 const Footer = ()=>{
   const {isDark,toggleDarkness} = useContext(ThemeContext);
-  console.log(isDark);
 
   const toggleTheme = () =>{
     toggleDarkness(!isDark);
