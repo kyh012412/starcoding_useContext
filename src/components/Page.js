@@ -2,12 +2,12 @@ import Content from './Content';
 import Footer from './Footer';
 import Header from './Header';
 
-const Page = ({isDark,toggleDarkness}) =>{
+const Page = () =>{  
   return (
     <div className='page'>
-      <Header isDark={isDark} />
-      <Content isDark={isDark} />
-      <Footer isDark={isDark} toggleDarkness={toggleDarkness} />
+      <Header  />
+      <Content  />
+      <Footer  />
     </div>
   );
 }
